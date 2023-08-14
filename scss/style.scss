@@ -1,0 +1,440 @@
+*{
+margin: 0;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(117, 114, 114);
+}
+hr{
+    border: 2px solid white;
+    margin: 20px 0 ;
+}
+
+body{
+    height: 100vh;
+}
+
+//  >>>HEADER<<<
+
+header {
+    text-align: center;
+    border-bottom: 2px solid  rgb(117, 114, 114);
+    
+    h1{
+        font-size: 70px;
+        margin-bottom: 10px;
+ 
+    }
+}
+
+//  >>>NAVBAR<<<
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    .userLinks {
+        display: flex;
+        flex-direction: row;
+        
+        .active{
+            background-color:   rgb(117, 114, 114);
+            
+            a{
+                font-weight: 800;
+                color: white;
+            }
+        }
+        
+        li{
+            list-style: none;
+            display: flex;
+
+            
+            a{
+                text-decoration: none;
+                color:  rgb(117, 114, 114);
+                padding: 10px 30px;
+            }
+        }
+        
+        li:hover {
+            background-color: rgb(117, 114, 114);
+            color: white;
+            
+            a{
+                color: white;
+            }
+        }
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        margin-right: 30px;
+        
+        li{
+            list-style: none;
+            padding: 10px 20px;
+            
+            a{
+                text-decoration: none;
+                color:  rgb(117, 114, 114);
+            }
+        }
+        
+        li:hover {
+            background-color: rgb(117, 114, 114);
+            color: white;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+//  >>>MAIN<<<
+
+main {
+    background-color: rgb(117, 114, 114);
+    padding: 20px 0;
+    
+    article{
+        text-align: center;
+       
+        h1{
+            text-align: center;
+            font-size: 40px;
+            padding-top: 20px;
+            color: white;
+      
+        }
+        
+        h6{
+            font-size: 30px;
+            padding-bottom: 20px;
+            color: white;
+            transition: transform 2s;
+            text-align: center;
+
+        }
+
+      
+    }
+
+    .aboutMe{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+     
+        .info{
+            color: white;
+            p{
+                padding: 10px 0;
+                font-size: 15px;
+                color: white;
+                b{
+                    color: white;
+                }
+                span{
+                    color: white;
+                }
+            }
+            .fa{
+                font-size: 15px;
+                color: white;
+            }
+        }
+        
+        img{
+            width: 40%;
+            height: 100%;
+            border-radius: 20px;
+            transition: transform 2s;
+        }
+        
+    }
+
+
+    //  >>>EDUCATION<<<
+
+
+    .education{
+        display: flex;
+        flex-direction: column;
+        
+        .row{
+            display: flex;
+            padding: 20px 0;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: left;
+            .col{
+               
+                h2{
+                    color: white;
+                }
+                p{
+                    padding: 10px 0;
+                    color: white;
+                    b{
+                        color: white;
+                    }
+                }
+            }
+            
+            img{
+                width: 30%;
+                height: 100%;
+                border-radius: 20px;
+                transition: transform 2s;
+            }
+            
+            img:hover{
+                transition: transform 2s;
+                transform: scale(2.0)  translateX(-150px);
+            }
+        }
+        
+        .solo{
+            display: flex;
+            padding: 20px 0;
+            margin-left: 100px;
+            h2{
+                    color: white;
+                }
+            p{
+                padding: 10px 0;
+                color: white;
+                b{
+                    color: white;
+                }
+            }
+        }
+    }
+    
+    //  >>>WORK EXPIRIENCE<<<
+
+
+    .workExperience{
+        .work{
+            width: 80%;
+            margin: 0 auto;
+            h2{
+                color: white;
+            }
+            p{
+                padding: 5px 0;
+                text-align: justify;
+                color: white;
+                b{
+                    color: white;
+                }
+            }
+            .btn{
+                padding: 10px 20px;
+                border-radius: 15px;
+            }
+            .btn:hover{
+                background-color:  rgb(117, 114, 114);
+                color: white;
+                border: 1px solid white;
+            }
+            ul{
+                li{
+                    padding: 2px 0;
+                    text-align: justify;  
+                    color: white;
+                }
+            }
+            .ul1 , .ul2, .ul3, .ul4{
+                display: none;
+            }
+        }
+    }
+
+      //  >>>PROJECTS<<<
+
+      .projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        article {
+            width: 500px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            margin-bottom: 40px;
+            
+            header{
+                border: none;
+                
+                h3{
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
+                
+                h2{
+                    font-size: large;
+                    margin-bottom: 10px;
+                }
+            }
+            
+            img{
+                width: 100%;
+                
+            }
+            
+            p{
+                font-size: 20px;
+                padding-bottom: 20px;
+                color: white;
+                text-align: center;
+                margin-top: 10px;
+            }
+            
+            .button{
+                background-color: white;
+                padding: 20px 40px;
+                color: rgb(117, 114, 114);
+                text-decoration: none;
+                border-radius: 20px;
+            }
+            
+            .button:hover {
+                background-color:  rgb(117, 114, 114);
+                
+                color: white
+            }
+        }
+    }
+}
+
+//  >>>FOOTER<<<
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width:1024px){
+
+          //  >>>NAVBAR<<<
+
+    nav{
+        .userLinks {
+            align-items: center;
+            li{
+                padding: 10px 10px;
+                text-align: center;
+            }
+        }
+        .icons {
+            display: flex;
+            flex-direction: row;
+            margin-right: 30px;
+            align-items: center;
+            li{
+                list-style: none;
+                padding: 10px 30px;
+            }
+        }
+    }
+
+    main {
+        .aboutMe{
+            .info{
+                order: 1;
+            }
+            
+            img{
+                order: 2;
+                width: 40%;
+                height: 100%;
+            }
+        }
+
+  //  >>>EDUCATION<<<
+
+        .education{
+            .row{
+                img:hover{
+                    transform: scale(2.0)  translateX(-120px);
+                }
+            }
+            .solo{
+                padding: 0;
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px)  {
+
+    //  >>>NAVBAR<<<
+
+    nav{
+       justify-content: space-around;
+        .userLinks {
+            flex-direction: column;
+            align-items: center;
+        }
+        .icons {
+            flex-direction: column;
+        }
+    }
+    main {
+
+    //  >>>ABOUT ME<<<
+
+        .aboutMe{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            .info{
+                order: 2;
+                p{
+                    padding: 10px 0;
+                    font-size: 15px;
+                }
+                .fa{
+                    font-size: 15px;
+                }
+            }
+            
+            img{
+                order: 1;
+                width: 70%;
+                height: 100%;
+            }
+            
+            img:hover{
+                transition: none;
+                transform: none;
+            }
+        }
+
+              //  >>>EDUCATION<<<
+
+
+        .education{
+            .row{
+                flex-direction: column;
+                align-items: center;
+                text-align: left;
+                padding: 10px;
+                
+                img:hover{
+                    transform: scale(3.5)  translateX(0px);
+                }
+            }
+            .solo{
+                text-align: left;
+                padding: 10px;
+                margin-left: 0px;
+            }
+        }
+    }
+}

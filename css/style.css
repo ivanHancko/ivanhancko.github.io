@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(117, 114, 114);
+}
+
+hr {
+  border: 2px solid white;
+  margin: 20px 0;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid rgb(117, 114, 114);
+}
+header h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .userLinks {
+  display: flex;
+  flex-direction: row;
+}
+nav .userLinks .active {
+  background-color: rgb(117, 114, 114);
+}
+nav .userLinks .active a {
+  font-weight: 800;
+  color: white;
+}
+nav .userLinks li {
+  list-style: none;
+  display: flex;
+}
+nav .userLinks li a {
+  text-decoration: none;
+  color: rgb(117, 114, 114);
+  padding: 10px 30px;
+}
+nav .userLinks li:hover {
+  background-color: rgb(117, 114, 114);
+  color: white;
+}
+nav .userLinks li:hover a {
+  color: white;
+}
+nav .icons {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+nav .icons li {
+  list-style: none;
+  padding: 10px 20px;
+}
+nav .icons li a {
+  text-decoration: none;
+  color: rgb(117, 114, 114);
+}
+nav .icons li:hover {
+  background-color: rgb(117, 114, 114);
+  color: white;
+}
+nav .icons li:hover a {
+  color: white;
+}
+
+main {
+  background-color: rgb(117, 114, 114);
+  padding: 20px 0;
+}
+main article {
+  text-align: center;
+}
+main article h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  color: white;
+}
+main article h6 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: white;
+  transition: transform 2s;
+  text-align: center;
+}
+main .aboutMe {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .aboutMe .info {
+  color: white;
+}
+main .aboutMe .info p {
+  padding: 10px 0;
+  font-size: 15px;
+  color: white;
+}
+main .aboutMe .info p b {
+  color: white;
+}
+main .aboutMe .info p span {
+  color: white;
+}
+main .aboutMe .info .fa {
+  font-size: 15px;
+  color: white;
+}
+main .aboutMe img {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+  transition: transform 2s;
+}
+main .education {
+  display: flex;
+  flex-direction: column;
+}
+main .education .row {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+}
+main .education .row .col h2 {
+  color: white;
+}
+main .education .row .col p {
+  padding: 10px 0;
+  color: white;
+}
+main .education .row .col p b {
+  color: white;
+}
+main .education .row img {
+  width: 30%;
+  height: 100%;
+  border-radius: 20px;
+  transition: transform 2s;
+}
+main .education .row img:hover {
+  transition: transform 2s;
+  transform: scale(2) translateX(-150px);
+}
+main .education .solo {
+  display: flex;
+  padding: 20px 0;
+  margin-left: 100px;
+}
+main .education .solo h2 {
+  color: white;
+}
+main .education .solo p {
+  padding: 10px 0;
+  color: white;
+}
+main .education .solo p b {
+  color: white;
+}
+main .workExperience .work {
+  width: 80%;
+  margin: 0 auto;
+}
+main .workExperience .work h2 {
+  color: white;
+}
+main .workExperience .work p {
+  padding: 5px 0;
+  text-align: justify;
+  color: white;
+}
+main .workExperience .work p b {
+  color: white;
+}
+main .workExperience .work .btn {
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+main .workExperience .work .btn:hover {
+  background-color: rgb(117, 114, 114);
+  color: white;
+  border: 1px solid white;
+}
+main .workExperience .work ul li {
+  padding: 2px 0;
+  text-align: justify;
+  color: white;
+}
+main .workExperience .work .ul1, main .workExperience .work .ul2, main .workExperience .work .ul3, main .workExperience .work .ul4 {
+  display: none;
+}
+main .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .projects article {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+main .projects article header {
+  border: none;
+}
+main .projects article header h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+main .projects article header h2 {
+  font-size: large;
+  margin-bottom: 10px;
+}
+main .projects article img {
+  width: 100%;
+}
+main .projects article p {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+main .projects article .button {
+  background-color: white;
+  padding: 20px 40px;
+  color: rgb(117, 114, 114);
+  text-decoration: none;
+  border-radius: 20px;
+}
+main .projects article .button:hover {
+  background-color: rgb(117, 114, 114);
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  nav .userLinks {
+    align-items: center;
+  }
+  nav .userLinks li {
+    padding: 10px 10px;
+    text-align: center;
+  }
+  nav .icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    align-items: center;
+  }
+  nav .icons li {
+    list-style: none;
+    padding: 10px 30px;
+  }
+  main .aboutMe .info {
+    order: 1;
+  }
+  main .aboutMe img {
+    order: 2;
+    width: 40%;
+    height: 100%;
+  }
+  main .education .row img:hover {
+    transform: scale(2) translateX(-120px);
+  }
+  main .education .solo {
+    padding: 0;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: space-around;
+  }
+  nav .userLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .icons {
+    flex-direction: column;
+  }
+  main .aboutMe {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  main .aboutMe .info {
+    order: 2;
+  }
+  main .aboutMe .info p {
+    padding: 10px 0;
+    font-size: 15px;
+  }
+  main .aboutMe .info .fa {
+    font-size: 15px;
+  }
+  main .aboutMe img {
+    order: 1;
+    width: 70%;
+    height: 100%;
+  }
+  main .aboutMe img:hover {
+    transition: none;
+    transform: none;
+  }
+  main .education .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+  }
+  main .education .row img:hover {
+    transform: scale(3.5) translateX(0px);
+  }
+  main .education .solo {
+    text-align: left;
+    padding: 10px;
+    margin-left: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
