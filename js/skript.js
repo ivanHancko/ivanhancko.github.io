@@ -4,7 +4,7 @@ let project3 = document.getElementById('project3');
 let project4 = document.getElementById('project4');
 
 project1.addEventListener('click', function() {
-    window.location.href= 'https://github.com/ivanHancko/billingTheKid-FTN-Informatika-courseProject'
+    window.location.href= 'https://github.com/ivanHancko/newNowAirways'
 } )
 
 project2.addEventListener('click', function() {
