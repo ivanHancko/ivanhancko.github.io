@@ -34,7 +34,7 @@ nav{
     .userLinks {
         display: flex;
         flex-direction: row;
-        
+        transform: skewX(-15deg);
         .active{
             background-color:   rgb(117, 114, 114);
             
@@ -47,7 +47,7 @@ nav{
         li{
             list-style: none;
             display: flex;
-
+            transition: .8s;
             
             a{
                 text-decoration: none;
@@ -82,6 +82,7 @@ nav{
         
         li:hover {
             background-color: rgb(117, 114, 114);
+             transition: .2s;
             color: white;
             a{
                 color: white;
@@ -231,11 +232,13 @@ main {
             .btn{
                 padding: 10px 20px;
                 border-radius: 15px;
+                transition: .8s;
             }
             .btn:hover{
                 background-color:  rgb(117, 114, 114);
                 color: white;
                 border: 1px solid white;
+                 transition: .2s;
             }
             ul{
                 li{
@@ -264,7 +267,7 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+            justify-content: space-around;
             padding: 20px;
             margin-bottom: 40px;
             
@@ -303,11 +306,12 @@ main {
                 color: rgb(117, 114, 114);
                 text-decoration: none;
                 border-radius: 20px;
+                transition: .8s;
             }
             
             .button:hover {
                 background-color:  rgb(117, 114, 114);
-                
+                transition: .2s;
                 color: white
             }
         }
