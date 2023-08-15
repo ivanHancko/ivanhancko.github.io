@@ -29,6 +29,7 @@ nav {
 nav .userLinks {
   display: flex;
   flex-direction: row;
+  transform: skewX(-15deg);
 }
 nav .userLinks .active {
   background-color: rgb(117, 114, 114);
@@ -40,6 +41,7 @@ nav .userLinks .active a {
 nav .userLinks li {
   list-style: none;
   display: flex;
+  transition: 0.8s;
 }
 nav .userLinks li a {
   text-decoration: none;
@@ -68,6 +70,7 @@ nav .icons li a {
 }
 nav .icons li:hover {
   background-color: rgb(117, 114, 114);
+  transition: 0.2s;
   color: white;
 }
 nav .icons li:hover a {
@@ -187,11 +190,13 @@ main .workExperience .work p b {
 main .workExperience .work .btn {
   padding: 10px 20px;
   border-radius: 15px;
+  transition: 0.8s;
 }
 main .workExperience .work .btn:hover {
   background-color: rgb(117, 114, 114);
   color: white;
   border: 1px solid white;
+  transition: 0.2s;
 }
 main .workExperience .work ul li {
   padding: 2px 0;
@@ -213,7 +218,7 @@ main .projects article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
   margin-bottom: 40px;
 }
@@ -221,14 +226,14 @@ main .projects article header {
   border: none;
 }
 main .projects article header h3 {
-  color: white;
   font-size: 30px;
   margin-bottom: 10px;
+  color: white;
 }
 main .projects article header h2 {
-  color: white;
   font-size: large;
   margin-bottom: 10px;
+  color: white;
 }
 main .projects article img {
   width: 100%;
@@ -246,9 +251,11 @@ main .projects article .button {
   color: rgb(117, 114, 114);
   text-decoration: none;
   border-radius: 20px;
+  transition: 0.8s;
 }
 main .projects article .button:hover {
   background-color: rgb(117, 114, 114);
+  transition: 0.2s;
   color: white;
 }
 
