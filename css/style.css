@@ -121,7 +121,7 @@ main .aboutMe .info .fa {
   color: white;
 }
 main .aboutMe img {
-  width: 40%;
+  width: 20%;
   height: 100%;
   border-radius: 20px;
   transition: transform 2s;
